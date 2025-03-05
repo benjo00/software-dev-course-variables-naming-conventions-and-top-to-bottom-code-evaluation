@@ -24,9 +24,13 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let user = "Alice";
+let products = 5;
+let totalPaid = 20;
+let story = user + " bought " + products + " items for $" + totalPaid + ".";
+let refund = totalPaid;
+let unsatisfiedCustomer = user + " got a refund of $ " + totalPaid + ".";
 
-console.log(d);
+
+console.log(story);
+console.log(unsatisfiedCustomer);
